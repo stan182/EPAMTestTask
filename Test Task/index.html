@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Test Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+</head>
+
+<body>
+    <div id="blockscreen">
+    </div>
+    <div id="header_wrapper" class="shadow">
+        <div id="header" class="shadow">Users</div>
+        <div id="sort" class="shadow">
+            <span>Sort by:</span>
+            <select id="sort-name">
+                <option value="none" selected="selected">---</option>
+                <option value="firstName">First name</option>
+                <option value="lastName">Last name</option>
+            </select>
+            <select id="sort-order">
+                <option value="none" selected="selected">---</option>
+                <option value="A-Z">A-Z</option>
+                <option value="Z-A">Z-A</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="list_wrapper">
+        <div id="list" class="shadow"></div>
+    </div>
+
+    <footer id="footer">Задание выполнил <b>Станислав Емшанов</b></footer>
+    <script src="dist/main.js"></script>
+
+</body>
+
+</html>
